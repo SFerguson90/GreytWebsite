@@ -25,7 +25,8 @@ SECRET_KEY = 'cl*2#ezy@!l&x8&n3$5i$_pg(as1^4$8yxyqz=832+-j0ww2-*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# HostHeader attacks are bad. * = all domains acceptable.. Expl list domains later.
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
