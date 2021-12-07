@@ -1,4 +1,13 @@
-<!-- templates/base.html-->
+{% load static %}
+<html>
+    <head>
+        <title>Greyt Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet">
+        <link href="{% static 'css/base.css' %}" rel="stylesheet"s>
+
+
+
+
 <header>
     <a href="{% url 'home' %}">Home</a> |
     <a href="{% url 'about' %}">About</a>
