@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Greyt Blog!</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="{% url 'home' %}">Greyt Blog!</a></h1>
+        </header>
+        <div>
+            {% block content %}
+            {% endblock content %}
+        </div>
+    </body>
+</html>
